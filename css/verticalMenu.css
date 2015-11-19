@@ -48,7 +48,7 @@
     display: block;
   }
   .sidebar-nav .navbar li a {
-    padding-top: 12px;
+    padding-top: 20px;
     padding-bottom: 12px;
   }  
 }
@@ -81,7 +81,7 @@
   }
 
   .affix-content .container {
-    width: 1000px;
+    width: 920px;
   }
 
   .affix-content .container .page-header{
@@ -89,7 +89,7 @@
   }
   .affix-content{
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 15px;
   }  
   .affix-title{
     border-bottom: 1px solid #ecf0f1; 
@@ -104,6 +104,7 @@
   .sidebar-nav .navbar li a:hover {
     background-color: #428bca;
     color: white;
+    max-width: 220px;
   }
   .sidebar-nav .navbar li a > .caret {
     margin-top: 8px;
